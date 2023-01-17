@@ -1,0 +1,126 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+.font-white {
+  color: #fff;
+}
+
+#data-grid-demo {
+  min-height: 300px;
+}
+
+.dx-datagrid-headers {
+  font-weight: bold;
+  color: #101010;
+}
+
+.dx-datagrid-rowsview {
+  padding: 0 2rem;
+  border-radius: 2rem;
+  overflow: hidden;
+}
+
+.dx-datagrid-scrollable-simulated {
+  padding: 0 2rem;
+}
+
+.dx-pager {
+  padding: 1rem 2rem;
+}
+
+.dx-toolbar {
+  background-color: #212529;
+  padding-bottom: 2rem;
+}
+
+#gridDeleteSelected {
+  position: absolute;
+  z-index: 1;
+  right: 0;
+  margin: 1px;
+  top: 0;
+}
+
+#gridDeleteSelected .dx-button-text {
+  line-height: 0;
+}
+
+.dx-button-edit {
+  background: #234890;
+  padding: 0.3rem 0.7rem;
+  margin-right: 0.5rem;
+  border-radius: 0.2rem;
+  color: #fff !important;
+  text-decoration: none !important;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.dx-button-edit:hover {
+  background: #152d5c;
+}
+
+.dx-button-edit::before {
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  content: "\f044";
+  margin-right: 0.5rem;
+}
+
+.dx-button-delete {
+  background: #ff0022;
+  padding: 0.3rem 0.7rem;
+  border-radius: 0.2rem;
+  color: #fff !important;
+  text-decoration: none !important;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.dx-button-delete:hover {
+  background: #9f0116;
+}
+
+.dx-button-delete::before {
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  content: "\f1f8";
+  margin-right: 0.5rem;
+}
+
+.dx-button-content {
+  border-radius: 0.3rem;
+  background: #328267;
+  transition: 0.3s;
+}
+.dx-button-content:hover {
+  background: #194234;
+}
+
+.dx-button-mode-contained.dx-button-default {
+  border-radius: 0.3rem;
+  background-color: #194234;
+}
+
+.dx-button-mode-contained.dx-button-default:hover {
+  background-color: #194234;
+}
+
+.dx-icon-edit:before {
+  display: inline-block !important;
+  font-family: "Material Design Icons" !important;
+  /* commenting and splitting in multple parts, see: https://github.com/angular/angular-cli/issues/11679#issuecomment-409727121 */
+  /* font: normal normal normal 24px/1 "Material Design Icons"!important; */
+  font-size: inherit !important;
+  text-rendering: auto !important;
+  line-height: inherit !important;
+  -webkit-font-smoothing: antialiased !important;
+  -moz-osx-font-smoothing: grayscale !important;
+
+  content: "\F3EB" !important;
+  font-size: 24px !important;
+  color: #007bff !important;
+}
